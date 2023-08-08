@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+backoff = "==2.2.1"
+certifi = "==2023.5.7"
+charset-normalizer = "==3.2.0"
+coloredlogs = "==15.0.1"
+config = "==0.5.1"
+future = "==0.18.3"
+humanfriendly = "==10.0"
+idna = "==3.4"
+pyjwt = "==2.7.0"
+pyreadline3 = "==3.4.1"
+requests = "==2.31.0"
+requests-toolbelt = "==1.0.0"
+urllib3 = "==2.0.3"
+webex-bot = "==0.4.0"
+webexteamssdk = "==1.6.1"
+websockets = "==10.2"
+cx-oracle = "*"
+schedule = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.9"
